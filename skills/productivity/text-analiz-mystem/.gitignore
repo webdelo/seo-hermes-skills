@@ -1,0 +1,11 @@
+# Proprietary MyStem binaries — download separately under Yandex terms.
+mystem
+mystem.exe
+
+# Per-run inputs and derived files
+input.txt
+output.txt
+keywords.txt
+report/
+__pycache__/
+*.pyc
