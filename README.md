@@ -6,6 +6,10 @@ Reusable Hermes skills for Webdelo SEO workflows.
 
 `skills/research/bonadomus-seo-api/SKILL.md` documents how to read and safely update catalog-page SEO metadata and editorial HTML on Bonadomus. It includes the approved city-page editorial layout based on `/dania-beach`.
 
+## Google Ads Key Planner
+
+`skills/research/google-ads-keyplanner/SKILL.md` documents the existing Webdelo service-account workflow for Google Ads Keyword Planner historical metrics. Its `README.md` explains how to download the JSON key separately; no credentials are committed to this repository.
+
 ### Admin setup
 
 An administrator must create a personal access token in **Bonadomus admin → IDX → SEO API → Tokens**. Grant only the required ability:
