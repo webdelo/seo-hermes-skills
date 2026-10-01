@@ -2,6 +2,22 @@
 
 Reusable Hermes skills for Webdelo SEO workflows.
 
+## Навыки для сотрудников
+
+[Каталог, установка и подключение личных ключей](EMPLOYEE_SKILLS.md).
+
+- [Семантика XMLRiver](skills/research/xmlriver-semantics/README.md)
+- [SEO Title](skills/research/seo-title/README.md)
+- [SEO Description](skills/research/seo-description/README.md)
+- [Сид-фразы и распределение семантики](skills/research/seo-seed-mapping/README.md)
+- [SEO-аудит страницы](skills/research/seo-audit/README.md)
+- [Топвизор: анализ позиций](skills/research/topvisor-analysis/README.md)
+- [Аудит ссылочного профиля](skills/research/backlink-audit/README.md)
+- [Измерение видимости в ИИ](skills/research/ai-visibility/README.md)
+- [Проверка источников](skills/research/source-verification/README.md)
+
+Ключи выдаёт владелец команды лично. Hermes запрашивает недостающие обязательные доступы при первом открытии навыка через защищённый ввод. Секреты не входят в репозиторий. Установка навыка не запускает платные запросы. Ограничения описаны в каталоге.
+
 ## Bonadomus SEO API
 
 `skills/research/bonadomus-seo-api/SKILL.md` documents how to read and safely update catalog-page SEO metadata and editorial HTML on Bonadomus. It includes the approved city-page editorial layout based on `/dania-beach`.

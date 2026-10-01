@@ -1,0 +1,12 @@
+# Secrets and personal outputs must never be published.
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+service-account*.json
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+reports/

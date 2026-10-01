@@ -1,0 +1,15 @@
+# Public AI answer capture
+- Use fixed nonbranded questions and fresh chats; preserve exact question, platform, model, URL and answer. Never substitute API output for web-product observations.
+- In Gemini inspect both model-response.innerText and textContent. innerText can return only a heading while the response exists in textContent and is faintly visible in screenshots. Verify both before claiming no response; never use this to bypass an actual access restriction.
+- Pin the observed conversation target using js(expression, target_id=observed_id). Inspect Target.getTargets on about:blank rather than blindly resubmitting or navigating away.
+- Batch send, wait, extract and save in one bounded call where practical. Verify user-query and conversation URL after clicking the observed Send button.
+- Poll textContent for substantial stable text; check completion controls when available. Label captures with stable text but no completion signal accordingly. Persist each question immediately.
+- For Safari use user-enabled Apple Events JavaScript and an exact window ID. Do not assume a newly created private window is loaded: Safari may report a ChatGPT tab URL while JS still reports favorites://. Verify actual DOM and logged-out UI. Never silently substitute the signed-in account for an anonymous run.
+- ChatGPT anonymous mobile-style UI may use #mobile-composer-prompt instead of #prompt-textarea. Fill with the native textarea value setter and a bubbling input event, click the visible send button, and verify the submitted question and /uc/ URL.
+- Never trust the Copy answer button alone as a completion signal: it can appear while the answer is empty or searching. Require substantial answer text, no search placeholder, and repeated stable reads before navigating away. Persist answers before starting a new anonymous chat; /uc/ URLs may become unrecoverable after clearing.
+- New anonymous chat can open a confirmation whose Clear chat control is an anchor [data-mobile-new-chat-clear], not a button. Verify the old assistant text is absent before submission.
+- Source chips may be buttons rather than anchors. If their panels fail, label source URL coverage unknown. Do not count interface OpenAI/help/privacy links as answer citations. Exclude ads and duplicate map cards from organic ranking analysis; keep original page text as evidence.
+- Avoid nested selector quoting errors: locate buttons with Array.from(...).find on aria-label, or serialize selector strings safely.
+- Aggregate saved JSON batches in code; verify unique IDs against planned questions. Failed capture is missing measurement, never zero visibility.
+- Separate debugging time, collection time, token usage and paid API cost. Code polling without LLM calls does not make the coordinating conversation free. Never infer subscription quota percentages from token totals.
+- Restore temporarily changed browser-profile settings and read them back; do not modify other profiles.
