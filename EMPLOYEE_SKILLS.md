@@ -13,6 +13,7 @@
 | Проверка источников | `source-verification` | Не требуется |
 | Локальные SEO-страницы Webdelo | `webdelo-local-seo-pages` | Webdelo Page API, Google Ads и XMLRiver настраиваются отдельно |
 | PDF-отчёты для локальных SEO-страниц | `webdelo-city-research-pdf` | Не требуется; использует сохранённые данные |
+| Две таблицы частотности для локальных страниц Webdelo | `webdelo-local-seo-tables` | Не требуется; использует сохранённые данные Google Ads/XMLRiver |
 
 ## Установка и личные ключи
 

@@ -1,0 +1,63 @@
+{
+  "google_ads_file": "data/google-ads-raw.json",
+  "comparison_file": "data/city-comparison.json",
+  "expected_keyword_planner": {
+    "geoTargetConstants": ["geoTargetConstants/2276"],
+    "language": "languageConstants/1001",
+    "keywordPlanNetwork": "GOOGLE_SEARCH"
+  },
+  "first_keywords": ["SEO Agentur Beispielstadt"],
+  "comparison_topic": "seo",
+  "comparison_cities": ["Beispielstadt"],
+  "locales": {
+    "ru": {
+      "first_title": "Частотность и стоимость рекламы по запросам",
+      "first_intro": "<p>Метрики получены из сохранённой выгрузки Google Ads.</p>",
+      "first_headers": ["Индустрия и запрос", "Запросов в месяц", "Конкуренция Ads", "Ставка от–до"],
+      "second_title": "SEO-спрос и выдача по городам",
+      "second_intro": "<p>Органическая выдача собрана отдельно для каждого города.</p>",
+      "second_headers": ["Ключ", "Частотность, в месяц", "Ставка Google Ads", "Типы сайтов", "Короткий вывод"],
+      "competition_labels": {"LOW": "низкая", "MEDIUM": "средняя", "HIGH": "высокая", "UNSPECIFIED": "не указана"},
+      "missing": "н/д",
+      "first_labels": {"SEO Agentur Beispielstadt": "SEO Agentur Beispielstadt"},
+      "comparison_keys": {"Beispielstadt": "SEO Agentur Примерный город"},
+      "site_type_labels": {"local": "Локальные SEO-агентства", "aggregator": "Каталоги и агрегаторы", "franchise": "Франшизы", "informational": "Информационные материалы", "other": "Прочие сайты"},
+      "takeaways": {"Beispielstadt": "Краткий вывод модели, основанный только на проверенных метриках строки."},
+      "thousands": " ",
+      "decimal": ","
+    },
+    "de": {
+      "first_title": "Suchvolumen und Werbekosten nach Suchanfragen",
+      "first_intro": "<p>Die Kennzahlen stammen aus dem gespeicherten Google-Ads-Export.</p>",
+      "first_headers": ["Branche und Suchanfrage", "Suchanfragen pro Monat", "Ads-Wettbewerb", "Gebot von–bis"],
+      "second_title": "SEO-Nachfrage und Suchergebnisse nach Städten",
+      "second_intro": "<p>Die organischen Ergebnisse wurden für jede Stadt separat erhoben.</p>",
+      "second_headers": ["Keyword", "Suchvolumen pro Monat", "Google-Ads-Gebot", "Website-Typen", "Kurzfazit"],
+      "competition_labels": {"LOW": "niedrig", "MEDIUM": "mittel", "HIGH": "hoch", "UNSPECIFIED": "nicht angegeben"},
+      "missing": "k. A.",
+      "first_labels": {"SEO Agentur Beispielstadt": "SEO Agentur Beispielstadt"},
+      "comparison_keys": {"Beispielstadt": "SEO Agentur Beispielstadt"},
+      "site_type_labels": {"local": "Lokale SEO-Agenturen", "aggregator": "Verzeichnisse und Aggregatoren", "franchise": "Franchises", "informational": "Informationsseiten", "other": "Sonstige Websites"},
+      "takeaways": {"Beispielstadt": "Kurzes Modellfazit, das nur auf den geprüften Kennzahlen der Zeile basiert."},
+      "thousands": " ",
+      "decimal": ","
+    },
+    "en": {
+      "first_title": "Search volume and advertising costs by query",
+      "first_intro": "<p>The metrics come from the saved Google Ads export.</p>",
+      "first_headers": ["Industry and query", "Searches per month", "Ads competition", "Bid range"],
+      "second_title": "SEO demand and search results by city",
+      "second_intro": "<p>Organic results were collected separately for every city.</p>",
+      "second_headers": ["Query", "Search volume per month", "Google Ads bid", "Website types", "Short conclusion"],
+      "competition_labels": {"LOW": "low", "MEDIUM": "medium", "HIGH": "high", "UNSPECIFIED": "not specified"},
+      "missing": "n/a",
+      "first_labels": {"SEO Agentur Beispielstadt": "SEO Agentur Beispielstadt"},
+      "comparison_keys": {"Beispielstadt": "SEO Agentur Example City"},
+      "site_type_labels": {"local": "Local SEO agencies", "aggregator": "Directories and aggregators", "franchise": "Franchises", "informational": "Informational pages", "other": "Other websites"},
+      "takeaways": {"Beispielstadt": "A short model-written conclusion based only on the verified row metrics."},
+      "thousands": " ",
+      "decimal": ","
+    }
+  },
+  "output": "out/tables.json"
+}
