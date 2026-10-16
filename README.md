@@ -16,6 +16,7 @@ Reusable Hermes skills for Webdelo SEO workflows.
 - [Измерение видимости в ИИ](skills/research/ai-visibility/README.md)
 - [Проверка источников](skills/research/source-verification/README.md)
 - [Локальные SEO-страницы Webdelo](skills/research/webdelo-local-seo-pages/README.md)
+- [PDF-отчёты для локальных SEO-страниц](skills/research/webdelo-city-research-pdf/README.md)
 
 Ключи выдаёт владелец команды лично. Hermes запрашивает недостающие обязательные доступы при первом открытии навыка через защищённый ввод. Секреты не входят в репозиторий. Установка навыка не запускает платные запросы. Ограничения описаны в каталоге.
 
