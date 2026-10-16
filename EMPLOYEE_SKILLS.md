@@ -11,6 +11,7 @@
 | Аудит ссылочного профиля | `backlink-audit` | `AHREFS_API_KEY` |
 | Измерение видимости в ИИ | `ai-visibility` | Не требуется |
 | Проверка источников | `source-verification` | Не требуется |
+| Локальные SEO-страницы Webdelo | `webdelo-local-seo-pages` | Webdelo Page API, Google Ads и XMLRiver настраиваются отдельно |
 
 ## Установка и личные ключи
 
