@@ -1,7 +1,7 @@
 ---
 name: webdelo-local-seo-pages
 description: Use when creating multilingual Webdelo local SEO city pages.
-version: 1.1.0
+version: 1.1.1
 author: Spara Daniil, Hermes Agent
 license: Proprietary
 platforms: [linux, macos, windows]
@@ -80,7 +80,7 @@ For a narrow spacing correction on an existing page, begin from a fresh signed e
 - Parameterize PDF methodology and comparison geography by target city, then assert that the rendered title/source page contains the intended scope and no neighboring-city scope — a reused report template can retain factually wrong geography while all numeric checks pass.
 - Preserve HTML table/card shells while replacing only text nodes — freehand reconstruction changes responsive layout and can break the CMS renderer.
 - Generate editorial copy and translations with a model rather than string-generation scripts — programmatic prose produces rigid, repetitive localization; scripts belong to envelope assembly and repeatable QA.
-- Do not let generation and acceptance share one unchallenged context — use an independent critic after deterministic assertions because fluent copy can still contain locality, grammar, or evidence defects.
+- Require a second-pass critical review after deterministic assertions — fluent copy can still contain locality, grammar, or evidence defects.
 - Inspect nested fields recursively for old toponyms — stale city names persist in breadcrumbs, metadata, FAQ, image alt text, iframe URLs, and cards even when headings are correct.
 - Treat a successful import as provisional until signed readback confirms the exact locales, blocks, metadata, and moderation grid.
 - Read back localized `images[].custom_properties.alt` values as well as image URLs — content-addressed media can be deduplicated to an existing record whose global metadata is retained, so a page import may not update alt text for every locale. Treat retained wrong-locale alt values as unresolved accessibility/SEO work and update the media record through the media-library workflow rather than claiming the page import fixed them.
