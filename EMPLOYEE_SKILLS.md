@@ -10,6 +10,7 @@
 | Топвизор: анализ позиций | `topvisor-analysis` | `TOPVISOR_USER_ID`, `TOPVISOR_API_KEY` |
 | Аудит ссылочного профиля | `backlink-audit` | `AHREFS_API_KEY` |
 | Измерение видимости в ИИ | `ai-visibility` | Не требуется |
+| CJM и промты для видимости в ИИ | `cjm-ai-prompts` | Не требуется |
 | Проверка источников | `source-verification` | Не требуется |
 | Локальные SEO-страницы Webdelo | `webdelo-local-seo-pages` | Webdelo Page API, Google Ads и XMLRiver настраиваются отдельно |
 | PDF-отчёты для локальных SEO-страниц | `webdelo-city-research-pdf` | Не требуется; использует сохранённые данные |

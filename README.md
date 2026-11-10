@@ -14,6 +14,7 @@ Reusable Hermes skills for Webdelo SEO workflows.
 - [Топвизор: анализ позиций](skills/research/topvisor-analysis/README.md)
 - [Аудит ссылочного профиля](skills/research/backlink-audit/README.md)
 - [Измерение видимости в ИИ](skills/research/ai-visibility/README.md)
+- [CJM и промты для видимости в ИИ](skills/research/cjm-ai-prompts/README.md)
 - [Проверка источников](skills/research/source-verification/README.md)
 - [Локальные SEO-страницы Webdelo](skills/research/webdelo-local-seo-pages/README.md)
 - [PDF-отчёты для локальных SEO-страниц](skills/research/webdelo-city-research-pdf/README.md)
