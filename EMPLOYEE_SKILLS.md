@@ -9,6 +9,7 @@
 | SEO-аудит страницы | `seo-audit` | Не требуется |
 | Топвизор: анализ позиций | `topvisor-analysis` | `TOPVISOR_USER_ID`, `TOPVISOR_API_KEY` |
 | Аудит ссылочного профиля | `backlink-audit` | `AHREFS_API_KEY` |
+| Сравнение сайтов с конкурентами — DataForSEO + Ahrefs | `competitor-backlink-comparison` | `AHREFS_API_KEY`, `DFS_LOGIN`, `DFS_PASSWORD` |
 | Измерение видимости в ИИ | `ai-visibility` | Не требуется |
 | CJM и промты для видимости в ИИ | `cjm-ai-prompts` | Не требуется |
 | Проверка источников | `source-verification` | Не требуется |
