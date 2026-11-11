@@ -12,6 +12,7 @@
 | Сравнение сайтов с конкурентами — DataForSEO + Ahrefs | `competitor-backlink-comparison` | `AHREFS_API_KEY`, `DFS_LOGIN`, `DFS_PASSWORD` |
 | Измерение видимости в ИИ | `ai-visibility` | Не требуется |
 | CJM и промты для видимости в ИИ | `cjm-ai-prompts` | Не требуется |
+| DataForSEO — промты и Query fan-out | `dataforseo-ai-optimization` | `DFS_LOGIN`, `DFS_PASSWORD` |
 | Проверка источников | `source-verification` | Не требуется |
 | Локальные SEO-страницы Webdelo | `webdelo-local-seo-pages` | Webdelo Page API, Google Ads и XMLRiver настраиваются отдельно |
 | PDF-отчёты для локальных SEO-страниц | `webdelo-city-research-pdf` | Не требуется; использует сохранённые данные |
