@@ -71,6 +71,14 @@ class ExtractPageTextTests(unittest.TestCase):
         self.assertEqual(data["text"], "")
         self.assertEqual(data["blocks"], [])
 
+    def test_stops_before_article_footer(self):
+        html = "<h1>T</h1><p>Keep</p><div class='article-detail__footer'><p>Rating</p></div><section><p>Related</p></section>"
+        data = self.extract(html)
+        self.assertIn("Keep", data["text"])
+        self.assertNotIn("Rating", data["text"])
+        self.assertNotIn("Related", data["text"])
+        self.assertEqual(data["stop"]["reason"], "article-detail-footer")
+
     def test_custom_stop_token(self):
         html = "<h1>T</h1><p>Keep</p><div class='promo-grid'><p>Drop</p></div><p>Also drop</p>"
         data = self.extract(html, extra_stop_tokens=["promo-grid"])

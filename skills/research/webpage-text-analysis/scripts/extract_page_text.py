@@ -27,6 +27,7 @@ DEFAULT_STOP_TOKENS = (
     "recommended", "recommendations", "recommendation", "more-stories",
     "more_articles", "more-articles", "you-may-also-like", "you_may_also_like",
     "read-also", "read_also", "also-read", "also_read", "further-reading",
+    "article-footer", "article-detail-footer",
     "comments", "comment-list", "comment_list", "comment-form", "comment_form",
     "comment-section", "comment_section", "respond", "discussion", "disqus",
     "related articles", "related posts", "recommended articles", "you may also like",
