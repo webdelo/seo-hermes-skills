@@ -18,6 +18,7 @@ Reusable Hermes skills for Webdelo SEO workflows.
 - [CJM и промты для видимости в ИИ](skills/research/cjm-ai-prompts/README.md)
 - [DataForSEO — промты и Query fan-out](skills/research/dataforseo-ai-optimization/README.md)
 - [Проверка источников](skills/research/source-verification/README.md)
+- [Извлечение и анализ текста страницы](skills/research/webpage-text-analysis/README.md)
 - [Локальные SEO-страницы Webdelo](skills/research/webdelo-local-seo-pages/README.md)
 - [PDF-отчёты для локальных SEO-страниц](skills/research/webdelo-city-research-pdf/README.md)
 - [Две таблицы частотности для локальных страниц Webdelo](skills/research/webdelo-local-seo-tables/README.md)
